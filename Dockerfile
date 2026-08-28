@@ -17,7 +17,7 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Tehran /etc/localtime
 
 RUN mkdir -p /usr/local/x-ui \
     && curl -L \
-    https://github.com/Sir-MmD/vpn-ui/releases/download/v2.9.4/vpn-ui-amd64 \
+    https://github.com/Sir-MmD/vpn-ui/releases/download/v1.7.9/vpn-ui-amd64 \
     -o /usr/local/x-ui/x-ui \
     && chmod +x /usr/local/x-ui/x-ui
 
